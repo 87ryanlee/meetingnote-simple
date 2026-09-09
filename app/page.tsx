@@ -39,8 +39,9 @@ export default function Home() {
       <div className={`dropzone ${dragging ? "active" : ""}`} onDragOver={(e) => { e.preventDefault(); setDragging(true); }} onDragLeave={() => setDragging(false)} onDrop={onDrop}>
         <div className="upload-icon">↑</div><strong>{file ? file.name : "녹취 파일을 여기에 놓으세요"}</strong>
         <p>{file ? "파일이 준비되었습니다. 정리를 시작해 보세요." : "오디오(mp3, wav, m4a, webm) 또는 TXT·MD"}</p>
-        <button type="button" className="file-button" onClick={() => fileInputRef.current?.click()}>파일 찾아보기</button>
-        <input ref={fileInputRef} type="file" accept="audio/*,.txt,.md" onChange={onInput} style={{ display: "none" }} />
+        <label className="file-button file-picker">파일 찾아보기
+          <input ref={fileInputRef} type="file" accept="audio/*,.txt,.md" onChange={onInput} />
+        </label>
       </div>
       {file && <div className="file-name"><span>{file.name} · {(file.size / 1024 / 1024).toFixed(1)} MB</span><button onClick={() => setFile(null)}>삭제</button></div>}
       {file && <button className="primary" style={{ width: "100%", marginTop: 16 }} onClick={processFile} disabled={busy}>{busy ? "회의록을 정리하고 있어요…" : "회의록 정리하기 →"}</button>}
