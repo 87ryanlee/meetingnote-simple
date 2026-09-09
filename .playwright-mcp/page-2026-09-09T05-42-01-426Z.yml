@@ -1,0 +1,197 @@
+- generic [ref=f10e2]:
+  - generic [ref=f10e3]:
+    - link "Skip to content" [ref=f10e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner "Global navigation menu" [ref=f10e8]:
+      - generic [ref=f10e9]:
+        - generic [ref=f10e10]:
+          - button "Open menu" [ref=f10e12] [cursor=pointer]
+          - link "Homepage (g then d)" [ref=f10e15] [cursor=pointer]:
+            - /url: /
+        - generic [ref=f10e18]:
+          - navigation "Breadcrumbs" [ref=f10e19]:
+            - list [ref=f10e20]:
+              - listitem [ref=f10e21]:
+                - link "87ryanlee" [ref=f10e22] [cursor=pointer]:
+                  - /url: /87ryanlee
+              - listitem [ref=f10e24]:
+                - link "meetingnote-simple" [ref=f10e25] [cursor=pointer]:
+                  - /url: /87ryanlee/meetingnote-simple
+                - button "Switch repository (alt shift r)" [ref=f10e26] [cursor=pointer]
+          - button "Open quick search dialog, type / to search (forward slash)" [ref=f10e29] [cursor=pointer]
+        - generic [ref=f10e32]:
+          - generic [ref=f10e33]:
+            - generic [ref=f10e36]:
+              - link "Chat with Copilot" [ref=f10e38] [cursor=pointer]:
+                - /url: /copilot
+              - button "Open Copilot…" [ref=f10e43] [cursor=pointer]
+            - button "Create new..." [ref=f10e45] [cursor=pointer]
+            - generic [ref=f10e47]:
+              - link "All issues" [ref=f10e48] [cursor=pointer]:
+                - /url: /issues
+              - link "All pull requests" [ref=f10e52] [cursor=pointer]:
+                - /url: /pulls
+              - link "All repositories" [ref=f10e55] [cursor=pointer]:
+                - /url: /repos
+          - link "You have no unread notifications (g then n)" [ref=f10e58] [cursor=pointer]:
+            - /url: /notifications
+          - button "Open user navigation menu" [ref=f10e62] [cursor=pointer]:
+            - img "User avatar" [ref=f10e63]
+      - heading "Repository navigation" [level=2] [ref=f10e64]
+      - navigation "Repository" [ref=f10e65]:
+        - list [ref=f10e66]:
+          - listitem [ref=f10e67]:
+            - link "Code" [ref=f10e68] [cursor=pointer]:
+              - /url: /87ryanlee/meetingnote-simple
+          - listitem [ref=f10e73]:
+            - link "Issues" [ref=f10e74] [cursor=pointer]:
+              - /url: /87ryanlee/meetingnote-simple/issues
+          - listitem [ref=f10e80]:
+            - link "Pull requests" [ref=f10e81] [cursor=pointer]:
+              - /url: /87ryanlee/meetingnote-simple/pulls
+          - listitem [ref=f10e86]:
+            - link "Actions" [ref=f10e87] [cursor=pointer]:
+              - /url: /87ryanlee/meetingnote-simple/actions
+          - listitem [ref=f10e92]:
+            - link "Projects" [ref=f10e93] [cursor=pointer]:
+              - /url: /87ryanlee/meetingnote-simple/projects
+          - listitem [ref=f10e98]:
+            - link "Wiki" [ref=f10e99] [cursor=pointer]:
+              - /url: /87ryanlee/meetingnote-simple/wiki
+          - listitem [ref=f10e104]:
+            - link "Security and quality" [ref=f10e105] [cursor=pointer]:
+              - /url: /87ryanlee/meetingnote-simple/security
+        - button "More items" [ref=f10e112] [cursor=pointer]:
+          - generic [ref=f10e115]:
+            - text: More
+            - generic [ref=f10e116]: items
+  - main [ref=f10e120]:
+    - generic [ref=f10e122]:
+      - generic [ref=f10e124]:
+        - img "Owner avatar" [ref=f10e125]
+        - strong [ref=f10e126]:
+          - link "meetingnote-simple" [ref=f10e127] [cursor=pointer]:
+            - /url: /87ryanlee/meetingnote-simple
+        - generic [ref=f10e128]: Public
+      - generic [ref=f10e129]:
+        - list:
+          - listitem [ref=f10e130]:
+            - button "Pin" [ref=f10e133] [cursor=pointer]
+          - listitem [ref=f10e136]:
+            - 'button "Watch: Participating in 87ryanlee/meetingnote-simple. 0 users are watching this repository. Click to change subscription settings." [ref=f10e139] [cursor=pointer]':
+              - generic [ref=f10e140]:
+                - generic [ref=f10e141]: Watch
+                - generic:
+                  - generic [aria-hidden]: "0"
+                  - generic: (0)
+          - listitem [ref=f10e142]:
+            - generic [ref=f10e143]:
+              - button "Fork 0" [disabled] [ref=f10e144]:
+                - text: Fork
+                - generic "0" [ref=f10e147]
+              - group [ref=f10e148]:
+                - button "See your forks of this repository" [ref=f10e149] [cursor=pointer]
+          - listitem [ref=f10e152]:
+            - generic [ref=f10e154]:
+              - button "Star this repository (0)" [ref=f10e156] [cursor=pointer]:
+                - text: Star
+                - generic "0 users starred this repository" [ref=f10e159]: "0"
+              - button "Add this repository to a list" [ref=f10e163] [cursor=pointer]
+    - generic [ref=f10e168]:
+      - generic [ref=f10e169]:
+        - generic [ref=f10e171]:
+          - heading "Set up GitHub Copilot" [level=3] [ref=f10e175]
+          - paragraph [ref=f10e176]: Use GitHub's AI pair programmer to autocomplete suggestions as you code.
+          - link "Get started with GitHub Copilot" [ref=f10e177] [cursor=pointer]:
+            - /url: /github-copilot/signup
+        - generic [ref=f10e181]:
+          - heading "Add collaborators to this repository" [level=3] [ref=f10e184]
+          - paragraph [ref=f10e185]: Search for people using their GitHub username or email address.
+          - link "Invite collaborators" [ref=f10e186] [cursor=pointer]:
+            - /url: /87ryanlee/meetingnote-simple/settings/access
+      - generic [ref=f10e189]:
+        - generic [ref=f10e190]:
+          - heading [level=3] [ref=f10e191]:
+            - strong [ref=f10e192]: Quick setup
+            - text: — if you’ve done this kind of thing before
+          - generic [ref=f10e193]:
+            - link "Set up in Desktop" [ref=f10e195] [cursor=pointer]:
+              - /url: https://desktop.github.com
+            - strong [ref=f10e200]: or
+            - generic [ref=f10e202]:
+              - button "HTTPS" [ref=f10e204] [cursor=pointer]
+              - button "SSH" [ref=f10e206] [cursor=pointer]
+            - generic [ref=f10e209]:
+              - textbox "Clone URL" [ref=f10e210]: https://github.com/87ryanlee/meetingnote-simple.git
+              - button "Copy to clipboard" [ref=f10e212] [cursor=pointer]
+          - paragraph [ref=f10e216]:
+            - text: Get started by
+            - link "creating a new file" [ref=f10e217] [cursor=pointer]:
+              - /url: /87ryanlee/meetingnote-simple/new/main
+            - text: or
+            - link "uploading an existing file" [ref=f10e218] [cursor=pointer]:
+              - /url: /87ryanlee/meetingnote-simple/upload
+            - text: . We recommend every repository include a
+            - link "README" [ref=f10e219] [cursor=pointer]:
+              - /url: /87ryanlee/meetingnote-simple/new/main?readme=1
+            - text: ","
+            - link "LICENSE" [ref=f10e220] [cursor=pointer]:
+              - /url: /87ryanlee/meetingnote-simple/new/main?filename=LICENSE.md
+            - text: ", and"
+            - link ".gitignore" [ref=f10e221] [cursor=pointer]:
+              - /url: /87ryanlee/meetingnote-simple/new/main?filename=.gitignore
+            - text: .
+        - generic [ref=f10e222]:
+          - generic [ref=f10e223]:
+            - heading "…or create a new repository on the command line" [level=3] [ref=f10e224]
+            - generic [ref=f10e225]:
+              - button "Copy to clipboard" [ref=f10e227] [cursor=pointer]
+              - generic [ref=f10e231]:
+                - text: echo "# meetingnote-simple" >> README.md git init git add README.md git commit -m "first commit" git branch -M main
+                - generic [ref=f10e232]: git remote add origin https://github.com/87ryanlee/meetingnote-simple.git
+                - text: git push -u origin main
+          - generic [ref=f10e233]:
+            - heading "…or push an existing repository from the command line" [level=3] [ref=f10e234]
+            - generic [ref=f10e235]:
+              - button "Copy to clipboard" [ref=f10e237] [cursor=pointer]
+              - generic [ref=f10e241]:
+                - generic [ref=f10e242]: git remote add origin https://github.com/87ryanlee/meetingnote-simple.git
+                - text: git branch -M main git push -u origin main
+      - generic [ref=f10e243]:
+        - strong [ref=f10e246]: ProTip!
+        - text: Use the URL for this page when adding GitHub as a remote.
+  - contentinfo [ref=f10e247]:
+    - heading "Footer" [level=2] [ref=f10e248]
+    - generic [ref=f10e249]:
+      - generic [ref=f10e250]:
+        - link "GitHub Homepage" [ref=f10e251] [cursor=pointer]:
+          - /url: https://github.com
+        - generic [ref=f10e254]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=f10e255]:
+        - heading "Footer navigation" [level=3] [ref=f10e256]
+        - list "Footer navigation" [ref=f10e257]:
+          - listitem [ref=f10e258]:
+            - link "Terms" [ref=f10e259] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=f10e260]:
+            - link "Privacy" [ref=f10e261] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=f10e262]:
+            - link "Security" [ref=f10e263] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=f10e264]:
+            - link "Status" [ref=f10e265] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=f10e266]:
+            - link "Community" [ref=f10e267] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=f10e268]:
+            - link "Docs" [ref=f10e269] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=f10e270]:
+            - link "Contact" [ref=f10e271] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=f10e272]:
+            - button "Manage cookies" [ref=f10e274] [cursor=pointer]
+          - listitem [ref=f10e275]:
+            - button "Do not share my personal information" [ref=f10e277] [cursor=pointer]
